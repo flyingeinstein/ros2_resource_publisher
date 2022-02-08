@@ -32,3 +32,23 @@ The following example publishes two variants of the `lss_humanoid.xacro.urdf` fi
             '-targets', '*,gazebo']
     )
 ```
+
+An example publishing the SRDF document, this time without xacro:
+```python
+    srdf_publisher = Node(
+        package='resource_publisher',
+        executable='resource_publisher',
+        output='screen',
+        arguments=[
+            '-package', 'lss_hexapod',
+            '-xacro', 'urdf/lss_hexapod.srdf',
+            '-topic', 'robot_description/srdf']
+    )
+```
+
+# Echo Published Documents
+The documents will be published with _latched_ QOS `reliable` reliability and `transient_local` durability which requires matching QOS parameters to retrieve the document with `ros2 topic echo`. The following example command will echo the full document:
+
+```bash
+ros2 topic echo --qos-reliability reliable --qos-durability transient_local --full-length /robot_description
+```

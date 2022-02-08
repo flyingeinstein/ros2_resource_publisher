@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/resource_publisher
+resource_publisher/__init__.py
+resource_publisher.egg-info/PKG-INFO
+resource_publisher.egg-info/SOURCES.txt
+resource_publisher.egg-info/dependency_links.txt
+resource_publisher.egg-info/entry_points.txt
+resource_publisher.egg-info/requires.txt
+resource_publisher.egg-info/top_level.txt
+resource_publisher.egg-info/zip-safe

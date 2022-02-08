@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>resource_publisher</name>
+  <version>0.5.1</version>
+  <description>
+    Publishes documents to Ros topics including conversion of xacro XML documents such as URDF.
+  </description>
+
+  <maintainer email="nospam2@colinmackenzie.net">Colin MacKenzie</maintainer>
+  <maintainer email="louise@openrobotics.org">Louise Poubel</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <url type="bugtracker">https://github.com/xxxxx/gazebo_ros_pkgs/issues</url>
+  <url type="repository">https://github.com/xxxxx/gazebo_ros_pkgs</url>
+
+  <author>Colin F. MacKenzie</author>
+
+  <exec_depend>ament_index_python</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

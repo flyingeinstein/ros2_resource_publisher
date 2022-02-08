@@ -1,0 +1,3 @@
+[console_scripts]
+my_script = resource_publisher.resource_publisher:main
+

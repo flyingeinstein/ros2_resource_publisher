@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: resource-publisher
+Version: 0.5.3
+Summary: Publishes documents to a Ros2 topic including conversion of xacro files such as URDF
+Home-page: UNKNOWN
+Author: Colin F. MacKenzie
+Author-email: nospam2@colinmackenzie.net
+Maintainer: Colin F. MacKenzie
+Maintainer-email: nospam2@colinmackenzie.net
+License: Apache
+Description: UNKNOWN
+Keywords: ros,ros2,urdf,xacro
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: Apache
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
